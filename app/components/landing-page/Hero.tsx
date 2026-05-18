@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import SideBar from "./SideBar";
-import { BatteryIcons, GradientIcons, HeighIcons, SpinalIcons, TechnologieIcons } from "../common/Icons";
+import { BatteryIcons, GradientIcons, HeighIcons, MemoireIcons, SpinalIcons, TechnologieIcons } from "../common/Icons";
 import Image from "next/image";
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
                 alt="Tech"
                 width={100}
                 height={100}
-                className="object-cover w-full h-147 max-w-118.5 translate-y-18"
+                className="object-cover w-full h-147 max-w-118.5 translate-y-18 pointer-events-none"
               />
               <div className="flex items-center gap-[7.31px] absolute top-40.25 right-16.75">
                 <span className="bg-dark-gray/60 rounded-full grid place-content-center p-1 ">
@@ -68,7 +68,7 @@ const Hero = () => {
                 </div>
               </div>
               {/*  */}
-                  <div className="flex items-center gap-[7.31px] absolute top-108 right-12">
+              <div className="flex items-center gap-[7.31px] absolute top-108 right-12">
                 <span className="bg-warm-brown rounded-full grid place-content-center p-1 ">
                   <span className="bg-white size-[6.9px] rounded-full"></span>
                 </span>
@@ -84,6 +84,28 @@ const Hero = () => {
                     <span className="text-white/50 text-[8.52px] leading-[153%] ">
                                         d’autonomie active
 
+                    </span>
+                  </p>
+                </div>
+              </div>
+                {/*  */}
+                 <div className="flex items-center gap-[7.31px] absolute top-130 right-28">
+                <span className="bg-warm-brown rounded-full grid place-content-center p-1 ">
+                  <span className="bg-white size-[6.9px] rounded-full"></span>
+                </span>
+                <div className=" bg-overlay-dark/25 border-[0.61px] border-white/25 backdrop-blur-[12.26px] rounded-[3.65px] py-[4.87px] px-[7.31px]">
+                  <p className="flex items-center text-white text-[9.74px] leading-[153%] gap-[3.65px] font-normal">
+                    <MemoireIcons />
+              Mémoire biométrique
+                  </p>
+                  <p className="flex items-center gap-[4.87px] mt-[2.44px]">
+                    <span className="py-[1.2px] px-[2.44px] gap-[2.44px] flex items-center bg-white/10 Flex rounded-[1.22px] text-white text-[8.52px] leading-[153%]">
+                                          <HeighIcons />
+
+                   99%
+                    </span>
+                    <span className="text-white/50 text-[8.52px] leading-[153%] ">
+                       de constance posturale
                     </span>
                   </p>
                 </div>
