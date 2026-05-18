@@ -96,7 +96,7 @@ const SideBarMobile = () => {
       variants={xrContainer}
       initial="hidden"
       animate="show"
-      className="mt-6 w-full flex flex-col items-center text-center"
+      className="mt-6 w-full flex flex-col items-center text-center max-sm:px-4"
     >
       <motion.h3
         variants={xrItem}
@@ -162,7 +162,7 @@ const SideBarMobile = () => {
         variants={xrItem}
         whileHover={{ y: -4, scale: 1.02 }}
         transition={{ type: "spring", stiffness: 300, damping: 20 } as any}
-        className="flex items-center gap-[17.64px] bg-white/60 border-[0.74px] rounded-[5.88px] border-white mt-8 p-[5.88px] text-left mx-auto max-w-[340px]"
+        className="flex items-center gap-[17.64px] bg-white/80 md:bg-white/60 backdrop-blur-[12.26px] border-[0.74px] rounded-[5.88px] border-white mt-8 p-[5.88px] text-left mx-auto max-w-[340px] relative z-10 shadow-[0px_8px_24px_-6px_rgba(0,0,0,0.05)]"
       >
         <div className="bg-white w-[88.22px] h-[120.17px] flex items-center justify-center rounded-[2.94px] shrink-0 overflow-hidden">
           <motion.div
@@ -212,7 +212,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.98, y: 40, filter: "blur(20px)" }}
             animate={{ opacity: 1, scale: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] } as any}
-            className="w-full max-w-[876.62px] mx-auto pt-6 pl-10 lg:pt-[24.35px] 
+            className="w-full max-w-[876.62px] mx-auto px-10 pt-6 pl-10 lg:pt-[24.35px] 
         lg:pl-[74.27px] shadow-[0px_0px_30px_2px_rgba(0,0,0,0.25)] rounded-[22.63px] relative overflow-hidden"
           >
             <span className="absolute bottom-0 left-0 -z-10">
