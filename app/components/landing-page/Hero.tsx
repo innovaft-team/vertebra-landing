@@ -118,7 +118,7 @@ const SideBarMobile = () => {
       </motion.h3>
       <motion.h1
         variants={xrItem}
-        className="text-[28px] mt-[14.71px] tracking-[-3%] text-charcoal font-medium leading-[99.9%] max-w-83 mx-auto"
+        className="text-[28px] mt-[14.71px] tracking-[-3%] text-charcoal font-medium leading-[99.9%] max-w-88 mx-auto"
       >
         Conçu pour soutenir la posture naturelle du corps humain
       </motion.h1>
@@ -287,7 +287,7 @@ const Hero = () => {
                     } as any
                   }
                   whileHover={{ scale: 1.05, y: -4 }}
-                  className="flex items-center gap-[7.31px] absolute top-40.25 right-16.75"
+                  className="flex items-center gap-[7.31px] absolute top-40.25 right-20.75"
                 >
                   <span className="bg-dark-gray/60 rounded-full grid place-content-center p-1 ">
                     <motion.span
@@ -328,7 +328,7 @@ const Hero = () => {
                     } as any
                   }
                   whileHover={{ scale: 1.05, y: -4 }}
-                  className="flex items-center flex-row-reverse gap-[7.31px] absolute top-94 right-50"
+                  className="flex items-center flex-row-reverse gap-[7.31px] absolute top-94 right-58"
                 >
                   <span className="bg-warm-brown rounded-full grid place-content-center p-1 ">
                     <motion.span
@@ -370,7 +370,7 @@ const Hero = () => {
                     } as any
                   }
                   whileHover={{ scale: 1.05, y: -4 }}
-                  className="flex items-center gap-[7.31px] absolute top-108 right-12"
+                  className="flex items-center gap-[7.31px] absolute top-108 right-19"
                 >
                   <span className="bg-warm-brown rounded-full grid place-content-center p-1 ">
                     <motion.span
@@ -411,7 +411,7 @@ const Hero = () => {
                     } as any
                   }
                   whileHover={{ scale: 1.05, y: -4 }}
-                  className="flex items-center gap-[7.31px] absolute top-130 right-28"
+                  className="flex items-center gap-[7.31px] absolute top-130 right-34"
                 >
                   <span className="bg-warm-brown rounded-full grid place-content-center p-1 ">
                     <motion.span

@@ -51,7 +51,7 @@ const SideBar = () => {
         </motion.h3>
         <motion.h1
           variants={itemVariants}
-          className="text-[38.96px] mt-[14.71px] tracking-[-3%] text-charcoal font-medium leading-[99.9%] max-w-83"
+          className="text-[38.96px] mt-[14.71px] tracking-[-3%] text-charcoal font-medium leading-[99.9%] max-w-88"
         >
           Conçu pour soutenir la posture naturelle du corps humain
         </motion.h1>
@@ -63,9 +63,16 @@ const SideBar = () => {
           intelligence neuro-adaptative et une mémoire biométrique, qui ajuste
           votre posture en temps rée.
         </motion.p>
-        <motion.div variants={itemVariants} className="flex items-center gap-[4.87px]">
+        <motion.div
+          variants={itemVariants}
+          className="flex items-center gap-[4.87px]"
+        >
           <motion.button
-            whileHover={{ scale: 1.04, y: -2, boxShadow: "0px 8px 15px -3px rgba(37,99,235,0.3)" }}
+            whileHover={{
+              scale: 1.04,
+              y: -2,
+              boxShadow: "0px 8px 15px -3px rgba(37,99,235,0.3)",
+            }}
             whileTap={{ scale: 0.96 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 } as any}
             className="bg-bright-blue cursor-pointer leading-[148%] text-white text-[8.52px] font-medium py-[6.9px] px-[12.18px] rounded-medium"
@@ -73,7 +80,11 @@ const SideBar = () => {
             Découvrir l’expérience
           </motion.button>
           <motion.button
-            whileHover={{ scale: 1.04, y: -2, backgroundColor: "rgba(0,0,0,0.08)" }}
+            whileHover={{
+              scale: 1.04,
+              y: -2,
+              backgroundColor: "rgba(0,0,0,0.08)",
+            }}
             whileTap={{ scale: 0.96 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 } as any}
             className="bg-charcoal/7 text-charcoal/80 cursor-pointer leading-[148%] text-[8.52px] font-medium py-[6.9px] px-[12.18px] rounded-medium transition-colors duration-300"
@@ -81,7 +92,10 @@ const SideBar = () => {
             En savoir plus
           </motion.button>
         </motion.div>
-        <motion.div variants={itemVariants} className="flex items-center mt-[7.31px] gap-[4.87px]">
+        <motion.div
+          variants={itemVariants}
+          className="flex items-center mt-[7.31px] gap-[4.87px]"
+        >
           <CartIcons />
           <span className="text-charcoal/80 text-[8.52px] leading-[153%] font-normal">
             Aucune carte bancaire requise
@@ -89,7 +103,10 @@ const SideBar = () => {
         </motion.div>
         <motion.div
           variants={itemVariants}
-          whileHover={{ y: -4, boxShadow: "0px 15px 30px -5px rgba(0, 0, 0, 0.08)" }}
+          whileHover={{
+            y: -4,
+            boxShadow: "0px 15px 30px -5px rgba(0, 0, 0, 0.08)",
+          }}
           transition={{ type: "spring", stiffness: 300, damping: 20 } as any}
           className="flex items-center gap-[17.64px] bg-white/60 border-[0.74px] rounded-[5.88px] border-white mt-[38.96px] p-[5.88px] cursor-pointer transition-colors duration-500 hover:bg-white/90 group"
         >
@@ -118,7 +135,9 @@ const SideBar = () => {
             </p>
             <motion.a
               whileHover={{ x: 3 }}
-              transition={{ type: "spring", stiffness: 400, damping: 25 } as any}
+              transition={
+                { type: "spring", stiffness: 400, damping: 25 } as any
+              }
               className="text-charcoal text-[10.29px] leading-[146%] flex items-center gap-[1.4px] mt-[17.63px] font-medium group-hover:text-bright-blue transition-colors duration-300"
               href="#"
             >
