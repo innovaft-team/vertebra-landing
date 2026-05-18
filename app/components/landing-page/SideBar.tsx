@@ -5,7 +5,7 @@ import Image from "next/image";
 const SideBar = () => {
   return (
     <>
-      <article className="mt-[57.88px]">
+      <article>
         <h3 className="w-fit bg-charcoal-light relative px-[9.74px] py-[4.87px] uppercase font-fragment tracking-[-2%] text-[8.52px] leading-[153%] text-charcoal">
           SOUTIEN SPINAL INTELLIGENT
           <span className="absolute top-0 left-0">
