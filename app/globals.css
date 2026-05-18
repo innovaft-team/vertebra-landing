@@ -1,26 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-light-gray: #F0F0F0;
+  --color-off-white: #FAFAFA;
+  --color-charcoal: #171717;
+  --color-charcoal-light: #17171705;
+  --color-bright-blue: #2B7FFF;
+  --color-dark-gray: #424242;
+  --color-overlay-dark: #121212;
+  --color-warm-brown: #7F6E66;
+  --radius-medium: 2.44px;
+  --font-fragment: "Fragment Mono", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("/fonts/NeueMontreal-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("/fonts/NeueMontreal-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("/fonts/NeueMontreal-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("/fonts/NeueMontreal-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "NeueMontreal", sans-serif;
+}
+.fragment-mono-regular {
+  font-family: var(--font-fragment);
+  font-weight: 400;
+  font-style: normal;
 }
