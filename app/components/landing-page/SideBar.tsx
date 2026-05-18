@@ -43,7 +43,7 @@ const SideBar = () => {
             Aucune carte bancaire requise
           </span>
         </div>
-        <div className="flex items-center gap-[17.64px] bg-white/60 border-[0.74px] rounded-[5.88px] border-white mt-[38.96px]">
+        <div className="flex items-center gap-[17.64px] bg-white/60 border-[0.74px] rounded-[5.88px] border-white mt-[38.96px] p-[5.88px]">
           <div className="bg-white w-[88.22px] h-[120.17px] flex items-center justify-center rounded-[2.94px]">
             <Image
               src="/images/png/skeleton.png"
@@ -62,9 +62,12 @@ const SideBar = () => {
               optimiser le mouvement et préserver durablement la santé
               musculo-squelettique.
             </p>
-            <a className="text-charcoal text-[10.29px] leading-[146%] flex items-center gap-[1.4px] mt-[17.63px]" href="#">
-                En savoir plus
-                <LInkIcons/>
+            <a
+              className="text-charcoal text-[10.29px] leading-[146%] flex items-center gap-[1.4px] mt-[17.63px]"
+              href="#"
+            >
+              En savoir plus
+              <LInkIcons />
             </a>
           </div>
         </div>

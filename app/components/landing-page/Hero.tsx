@@ -25,7 +25,7 @@ const Hero = () => {
                 alt="Tech"
                 width={100}
                 height={100}
-                className="object-cover w-full h-147 max-w-118.5 translate-y-18 pointer-events-none"
+                className="object-cover w-full h-147 max-w-118.5 translate-y-18 pointer-events-none [clip-path:inset(2px_0_0_0)]"
               />
               <div className="flex items-center gap-[7.31px] absolute top-40.25 right-16.75">
                 <span className="bg-dark-gray/60 rounded-full grid place-content-center p-1 ">
